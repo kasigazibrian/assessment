@@ -1,0 +1,283 @@
+.services {
+  background-color: #2058ee;
+  padding-bottom: 400px;
+  height: 100%;
+
+}
+.button1{
+  padding-left: 1000px;
+  padding-top: 300px;
+  font-size: 24px;
+  border-radius: 12px;
+
+}
+.instructions{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+
+}
+.service-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+.sc1 {
+  animation: triangle-slide-in 2.5s ease forwards;
+}
+
+.sc2 {
+  animation: triangle-slide-in 2.5s ease forwards 2s;
+}
+
+.sc3 {
+  animation: triangle-slide-in 2.5s ease forwards 4s;
+}
+
+.sc4 {
+  animation: triangle-slide-in 2.5s ease forwards 6s;
+}
+
+.sc5 {
+  animation: triangle-slide-in 2.5s ease forwards 8s;
+}
+
+.sc6 {
+  animation: triangle-slide-in 2.5s ease forwards 15s;
+}
+
+.service-icons {
+  position: absolute;
+  width: 600px;
+  top: -50px;
+  left: -400px;
+}
+
+.h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+  position: relative;
+  top: 215px;
+  left: 150px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+  position: relative;
+  top: 200px;
+  left: 150px;
+  padding-right: 200px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.svg-strategie, .svg-marketing, .svg-design, .svg-ux, .svg-acc, .svg-dev {
+  position: absolute;
+  z-index: 10;
+  transform-origin: 50% 50%;
+  top: 285px;
+  left: 415px;
+}
+
+.diamond-narrow {
+  width: 0;
+  height: 0;
+  border: 500px solid transparent;
+  border-bottom: 751px solid #ffffff;
+  position: relative;
+  left: -500px;
+  top: -950px;
+  opacity: 0.7;
+  z-index: 0;
+}
+.diamond-narrow:after {
+  content: '';
+  position: absolute;
+  left: -500px;
+  top: 750px;
+  width: 0;
+  height: 0;
+  border: 500px solid transparent;
+  border-top: 750px solid #ffffff;
+  z-index: 0;
+}
+
+.arrow-right {
+  position: absolute;
+  z-index: 1;
+  width: 62px;
+  height: 184px;
+  top: 209px;
+  left: 439px;
+}
+
+.ar1 {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 280;
+  animation: dash 1s linear forwards 1s;
+}
+
+.ar2 {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 280;
+  animation: dash 1s linear forwards 4s;
+}
+
+.ar3 {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 280;
+  animation: dash 1s linear forwards 7s;
+}
+
+.ar4 {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 280;
+  animation: dash 1s linear forwards 10s;
+}
+
+.ar5 {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 280;
+  animation: dash 1s linear forwards 13s;
+}
+
+.ar6 {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 280;
+  animation: dash 1s linear forwards 16s;
+}
+
+@keyframes triangle-slide-in {
+  from {
+    opacity: 0;
+    transform: translate(-1000px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.str-path2 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation: dash 0.5s linear forwards 1.5s;
+}
+
+.str-path3 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation: dash 0.5s linear forwards 1.5s;
+}
+
+.str-path4 {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+  animation: dash 0.5s linear forwards 1.5s;
+}
+
+.str-path1 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: -50;
+  animation: dash 0.5s linear forwards 2s;
+}
+
+.str-path5 {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 20;
+  animation: dash 0.5s linear forwards 2.5s;
+}
+
+.ma-path1 {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  animation: dash 1s linear forwards 4.5s;
+}
+
+.ma-path2 {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: dash 1s linear forwards 5s;
+}
+
+.ma-path3 {
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+  animation: dash 0.5s linear forwards 5.5s;
+}
+
+.de-path1 {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  animation: dash 1s linear forwards 8s;
+}
+
+.ux-path1 {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  animation: dash 1s linear forwards 10.5s;
+}
+
+.ux-path2 {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 20;
+  animation: dash 0.5s linear forwards 11s;
+}
+
+.acc-path1 {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  animation: dash 1s linear forwards 13.5s;
+}
+
+.acc-path2 {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 20;
+  animation: dash 0.5s linear forwards 14s;
+}
+
+.dev-path1 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation: dash 0.8s linear forwards 16.5s;
+}
+
+.dev-path5 {
+  stroke-dasharray: 20;
+  stroke-dashoffset: -20;
+  animation: dash 0.5s linear forwards 16.9s;
+}
+
+.dev-path2 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation: dash 0.8s linear forwards 17.3s;
+}
+
+.dev-path4 {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 20;
+  animation: dash 0.5s linear forwards 17.7s;
+}
+
+.dev-path3 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation: dash 0.8s linear forwards 18.1s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes wp-dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
